@@ -22,16 +22,16 @@
 }
 
 
-- (void)addDelegate:(id)delegate {
+- (void)add:(id)delegate {
     [_delegates addObject:delegate];
 }
 
 
-- (void)removeDelegate:(id)delegate {
+- (void)remove:(id)delegate {
     [_delegates removeObject:delegate];
 }
 
-- (void)removeAllDelegates {
+- (void)removeAll {
     [_delegates removeAllObjects];
 }
 

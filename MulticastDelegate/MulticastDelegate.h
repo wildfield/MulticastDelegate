@@ -11,13 +11,13 @@
 @interface MulticastDelegate : NSObject
 
 // Adds the given delegate implementation to the list of observers
-- (void)addDelegate:(id)delegate;
+- (void)add:(id)delegate;
 
 // Removes the given delegate implementation from the list of observers
-- (void)removeDelegate:(id)delegate;
+- (void)remove:(id)delegate;
 
 // Removes all delegates
-- (void)removeAllDelegates;
+- (void)removeAll;
 
 // Hashtable of all delegates
 - (NSHashTable *)delegates;
